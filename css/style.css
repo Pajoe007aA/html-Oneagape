@@ -1,0 +1,124 @@
+body{
+	margin:0;
+}
+#container{
+	width:800px;
+	margin:auto;
+	padding:0;
+	background-color:#C8F8A9;
+}
+#header{
+	width:100%;
+	height:120px;
+	background-color:#D6EECC;
+}
+#logo{
+	height:100%;
+	width:15%;
+	background-color:55F1A4;
+	float:left;
+}
+#logo img{
+	width:80%;
+	margin:10px 0px 0px 10px;
+	text-align:center;
+}
+#slogan{
+	height:100%;
+	width:85%;
+	background-color:D6EECC;
+	float:right;
+}
+#slogan h1{
+	text-align:center;
+	margin-top:40px;
+}
+#nav{
+	width:100%;
+	height:50px;
+	background-color:black;
+}
+#nav ul{
+	list-style:none;
+	margin:0;
+	padding-top:5px;
+}
+#nav ul li{
+	float:left;
+	margin-left:2px;
+}
+#nav ul li a{
+	text-decoration:none;
+	width:60px;
+	display:block;
+	padding:10px 12px 10px 12px;
+	background-color:#012304;
+	color:white;
+}
+#nav ul li a:hover{
+	background-color:grey;
+	border-radius:25px;
+	color:66F426;
+	font-family:comic sans ms;
+}
+#nav .active{
+	background-color:grey;
+}
+#article{
+	width:70%;
+	height:500px;
+	background-color:#86F8E5;
+	float:left;
+	padding:0;
+}
+#content{
+	padding:0;
+	margin:0;
+	width:90%;
+	margin-left:12px;
+}
+#content h1,#content p{
+	margin:5px;
+}
+#sidebar{
+	width:30%;
+	height:500px;
+	background-color:#DAC7EB;
+	float:right;
+	color:03A6C1;
+}
+#Sidebar h1,#sidebar p{
+	padding:0;
+	margin:0;
+	padding-left:10px;
+}
+#sidebar h1{
+	text-decoration:underline;
+	font-family:comic sans ms;
+}#sidebar a{
+	color:A00370;
+	text-decoration:none;
+}
+#sidebar button{
+	color:543203;
+	background-color:9EF4B4;
+	border-style:none;
+	padding:10px;
+	text-align:center;
+	margin:10px 0px 0px 50px;
+}
+.icon{
+	width:40px;
+	padding-left:5px;
+}
+#footer{
+	width:100%;
+	height:40px;
+	background-color:#242421;
+	clear:both;
+}
+#footer p{
+	color:white;
+	padding-top:10px;
+	text-align:center; 
+}
